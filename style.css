@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Maxis Kochblog</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+      background: #fff8f0;
+      color: #333;
+      line-height: 1.6;
+    }
+    header, footer {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    h1 {
+      color: #d14a25;
+      margin-bottom: 10px;
+    }
+    h2 {
+      border-bottom: 2px solid #d14a25;
+      padding-bottom: 5px;
+      margin-top: 50px;
+      color: #a83b18;
+    }
+    section.recipe {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 30px;
+      align-items: center;
+    }
+    section.recipe img {
+      width: 180px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+    }
+    section.recipe div {
+      max-width: 650px;
+    }
+    footer p, footer address {
+      font-size: 0.9rem;
+      color: #555;
+      margin: 5px 0;
+    }
+    /* Emoji headings */
+    .category-header {
+      font-size: 1.5rem;
+      margin-top: 60px;
+      color: #d14a25;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Willkommen!</h1>
+  <p>Ich bin Maxi und teile hier meine liebsten, einfachen Rezepte. Ob Frühstück, Snacks oder Desserts – hier findest du leckere Ideen für jeden Tag. Viel Spaß beim Ausprobieren!</p>
+</header>
+
+<main>
+
+  <h2 class="category-header">🥓 Frühstück</h2>
+
+  <section class="recipe">
+    <img src="https://www.andy-cooks.com/cdn/shop/articles/skillet-breakfast_600x.jpg" alt="Skillet Breakfast" />
+    <div>
+      <h3>1. Skillet Breakfast</h3>
+      <p><strong>Zutaten:</strong> Kartoffeln (gewürfelt), Speck (Stücke), Würstchen (Scheiben), Paprika (gewürfelt), Zwiebel (gewürfelt), Eier</p>
+      <p><strong>Zubereitung:</strong> Kartoffeln, Speck, Würstchen, Paprika, Zwiebel in Pfanne anbraten. Eier drauf, stocken lassen.</p>
+    </div>
+  </section>
+
+  <section class="recipe">
+    <img src="https://www.andy-cooks.com/cdn/shop/articles/breakfast-casserole_600x.jpg" alt="Breakfast Casserole" />
+    <div>
+      <h3>2. Breakfast Casserole</h3>
+      <p><strong>Zutaten:</strong> Brot (gewürfelt), Eier (4), Milch (250 ml), Käse (gerieben), Wurst (gewürfelt)</p>
+      <p><strong>Zubereitung:</strong> Alles vermischen, in Auflaufform bei 180 °C ca. 30 Min backen, bis fest und goldgelb.</p>
+    </div>
+  </section>
+
+  <h2 class="category-header">🥖 Vorspeisen</h2>
+
+  <section class="recipe">
+    <img src="https://www.andy-cooks.com/cdn/shop/articles/garlic-bread_600x.jpg" alt="Knoblauchbrot" />
+    <div>
+      <h3>1. Knoblauchbrot</h3>
+      <p><strong>Zutaten:</strong> Butter (weich), Knoblauch (gehackt), Salz, Petersilie (gehackt), Baguette</p>
+      <p><strong>Zubereitung:</strong> Butter mit Knoblauch, Salz, Petersilie mischen, auf Baguette streichen, bei 200 °C 10 Min backen.</p>
+    </div>
+  </section>
+
+  <section class="recipe">
+    <img src="https://www.andy-cooks.com/cdn/shop/articles/smacked-cucumber-salad_600x.jpg" alt="Gurkensalat" />
+    <div>
+      <h3>2. Gurkensalat</h3>
+      <p><strong>Zutaten:</strong> Gurke, Sojasoße, Essig, Zucker, Salz, Sesam</p>
+      <p><strong>Zubereitung:</strong> Gurke andrücken/schneiden, mit Sojasoße, Essig, Zucker, Salz, Sesam mischen, kalt servieren.</p>
+    </div>
+  </section>
+
+  <h2 class="category-header">🍿 Snacks</h2>
+
+  <section class="recipe">
+    <img src="https://www.andy-cooks.com/cdn/shop/articles/chicken-wraps_600x.jpg" alt="Chicken-Wrap" />
+    <div>
+      <h3>1. Chicken-Wrap</h3>
+      <p><strong>Zutaten:</strong> Wraps, Hähnchenstreifen, Joghurt, Salat, Gurke, Tomate</p>
+      <p><strong>Zubereitung:</strong> Wrap mit Joghurt bestreichen, mit Zutaten füllen, aufrollen, halbieren.</p>
+    </div>
+  </section>
+
+  <section class="recipe">
+    <img src="https://www.andy-cooks.com/cdn/shop/articles/corn-fritters_600x.jpg" alt="Corn Fritters" />
+    <div>
+      <h3>2. Corn Fritters</h3>
+      <p><strong>Zutaten:</strong> Mais, Ei, Mehl, Backpulver, Salz</p>
+      <p><strong>Zubereitung:</strong> Zutaten mischen, kleine Küchlein formen, in Öl goldbraun braten.</p>
+    </div>
+  </section>
+
+  <h2 class="category-header">🍽️ Hauptgerichte</h2>
+
+  <section class="recipe">
+    <img src="https://www.andy-cooks.com/cdn/shop/articles/country-fried-steak_600x.jpg" alt="Country Fried Steak" />
+    <div>
+      <h3>1. Country Fried Steak</h3>
+      <p><strong>Zutaten:</strong> Rindfleisch (dünn), Salz, Pfeffer, Paprika, Mehl, Ei, Semmelbrösel</p>
+      <p><strong>Zubereitung:</strong> Fleisch würzen, in Mehl, Ei, Semmelbrösel panieren, in Öl knusprig braten. Optional mit Soße.</p>
+    </div>
+  </section>
+
+  <section class="recipe">
+    <img src="https://www.andy-cooks.com/cdn/shop/articles/shepherds-pie_600x.jpg" alt="Shepherd’s Pie" />
+    <div>
+      <h3>2. Shepherd’s Pie</h3>
+      <p><strong>Zutaten:</strong> Hackfleisch, Möhre, Zwiebel, Brühe, Kartoffelpüree</p>
+      <p><strong>Zubereitung:</strong> Hackfleisch mit Möhre & Zwiebel anbraten, Brühe zugeben, in Form geben, mit Püree bedecken, backen.</p>
+    </div>
+  </section>
+
+  <h2 class="category-header">🍰 Desserts</h2>
+
+  <section class="recipe">
+    <img src="https://www.andy-cooks.com/cdn/shop/articles/christmas-french-toast_600x.jpg" alt="Christmas French Toast" />
+    <div>
+      <h3>1. Christmas French Toast</h3>
+      <p><strong>Zutaten:</strong> Toast, Ei, Milch, Zimt, Butter, Beeren, Sirup</p>
+      <p><strong>Zubereitung:</strong> Toast in Ei-Milch-Zimt wenden, in Butter braten, mit Beeren & Sirup servieren.</p>
+    </div>
+  </section>
+
+  <section class="recipe">
+    <img src="https://www.andy-cooks.com/cdn/shop/articles/classic-cheesecake_600x.jpg" alt="Classic Cheesecake" />
+    <div>
+      <h3>2. Classic Cheesecake</h3>
+      <p><strong>Zutaten:</strong> Butterkekse, Frischkäse, Zucker, Eier, Beeren</p>
+      <p><strong>Zubereitung:</strong> Keksboden machen, Frischkäsefüllung drauf, backen, kaltstellen, mit Beeren servieren.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <section>
+    <h2>Über mich</h2>
+    <p>Ich bin Maxi, 15 Jahre alt und leidenschaftlicher Hobbykoch. Kochen macht mir Spaß, weil ich gerne neue Gerichte ausprobiere und dabei einfache, leckere Rezepte liebe. Auf dieser Seite teile ich meine Lieblingsrezepte mit dir – viel Spaß beim Nachkochen!</p>
+  </section>
+
+  <section>
+    <h2>Kontakt</h2>
+    <address>
+      Maximilian B.<br />
+      <a href="mailto:Maximilian.g.b@mail.com">Maximilian.g.b@mail.com</a><br />
+      Kilchbergsstrasse 28
+    </address>
+  </section>
+</footer>
+
+</body>
+</html>
